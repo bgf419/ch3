@@ -4,8 +4,24 @@
   <body>
     <h1>Home Page</h1>
       <p>
-    The Essay introduction to Happiness - V0
-<p>    Revel in running, for victors adapt and move on. </p>
+        The Essay introduction to Happiness - V0
       </p>
+      <p>
+        Revel in running, for victors adapt and move on.
+      </p>
+      <div class="center jumbotron">
+  <h1>Welcome to the Sample App</h1>
+
+  <h2>
+    This is the home page for the
+    <a href="http://www.railstutorial.org/">Ruby on Rails Tutorial</a>
+    sample application.
+  </h2>
+
+  <%= link_to "Sign up now!", signup_path, class: "btn btn-lg btn-primary" %>
+</div>
+
+<%= link_to image_tag("Charles.png", width: 1140, alt: "Rails logo"),
+            'http://rubyonrails.org/' %>
   </body>
 </html>
